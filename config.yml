@@ -1,12 +1,12 @@
-token: "peMkVPjCP2MSQ0Vk"    # Lichess OAuth2 Token.
+token: "lip_5FzjXy4Vk8O95qQE2jFn"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
   dir: "./"                  # Directory containing engines, relative to this project.
-  name: "chess-engine"    # Binary name of the engine to use.
+  name: "Stockfish14.exe"    # Binary name of the engine to use.
   protocol: "uci"            # "uci" or "xboard"
   ponder: true               # Think on opponent's time.
-  polyglot:
+  polyglot:true
     enabled: false           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
