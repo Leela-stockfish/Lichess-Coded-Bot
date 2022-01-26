@@ -1,9 +1,9 @@
 token: "lip_5FzjXy4Vk8O95qQE2jFn"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
-engine:                      # Engine settings.
+engine:stockfish14.exe                      # Engine settings.
   dir: "./"                  # Directory containing engines, relative to this project.
-  name: "Stockfish14.exe"    # Binary name of the engine to use.
+  name: "Leella-stockfish"    # Binary name of the engine to use.
   protocol: "uci"            # "uci" or "xboard"
   ponder: true               # Think on opponent's time.
   polyglot:true
